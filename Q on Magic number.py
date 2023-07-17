@@ -7,11 +7,11 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 '''
 magic_number= 50
-
-number =  int(input("Enter the number ..  "))
-if number < 50:
-  print("That number is too low")
-elif number > 50:
-   print("That number is too high")
-else:
-    print("Hooray! You got it correct")
+while True:
+    number =  int(input("Enter the number ..  "))
+    if number < 50:
+      print("That number is too low")
+    elif number > 50:
+       print("That number is too high")
+  else:
+      print("Hooray! You got it correct")
